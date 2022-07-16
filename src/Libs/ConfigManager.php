@@ -4,6 +4,11 @@ namespace ZnCore\ConfigManager\Libs;
 
 use ZnCore\ConfigManager\Interfaces\ConfigManagerInterface;
 
+/**
+ * Реестр для хранения конфигов.
+ *
+ * Хранит конфиги в ОЗУ.
+ */
 class ConfigManager implements ConfigManagerInterface
 {
 
