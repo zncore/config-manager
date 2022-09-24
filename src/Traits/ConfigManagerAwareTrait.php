@@ -2,7 +2,10 @@
 
 namespace ZnCore\ConfigManager\Traits;
 
+use ZnCore\Code\Helpers\DeprecateHelper;
 use ZnCore\ConfigManager\Interfaces\ConfigManagerInterface;
+
+DeprecateHelper::hardThrow();
 
 trait ConfigManagerAwareTrait
 {
